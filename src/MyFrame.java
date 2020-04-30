@@ -59,7 +59,11 @@ class MyFrame extends JFrame {
   Color color = new Color(63,96,124);
 	
   
-   
+  private JLabel picLabel = new JLabel(new ImageIcon("src/icons/workflow.png"));
+  //picLabel.setBounds(80, 180, 450, 380);
+  ///constraints.gridx = 0;
+  //constraints.gridy = 3; 
+     //getContentPane().add(picLabel);
   
   private JLabel lblA = new JLabel("KEY MANAGEMENT");
   private JLabel lblB = new JLabel("<html>ENCRYPTION/DECRYPTION & <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp DIGITAL SIGNATURE</html>");
@@ -111,6 +115,11 @@ class MyFrame extends JFrame {
 	    mydialog.setSize(400,200);
 	    mydialog.setLocationRelativeTo(null);
 	    mydialog.setVisible(true);
+	    JLabel picLabel = new JLabel(new ImageIcon("src/icons/flowchart.png"));
+        picLabel.setBounds(80, 180, 400, 400);
+        //constraints.gridx = 0;
+	     //constraints.gridy = 3; 
+	        panel.add(picLabel);
       
       
   }
@@ -327,13 +336,14 @@ class MyFrame extends JFrame {
     lblA.setBounds(150,10,200,20);
     lblA.setFont(f2);
     lblA.setForeground(color);
-    lblB.setBounds(520,10,300,40);
+    lblB.setBounds(520,10,450,40);
     lblB.setFont(f2);
     lblB.setForeground(color);
 //    lblC.setBounds(170,390,450,40);
 //    lblC.setBackground(Color.white);
 //    lblC.setOpaque(true);
 //    
+    picLabel.setBounds(150, 180, 510, 420);
     add(btnEncryptFile);
     add(btnDecryptFile);
     add(btnEncryptText);
@@ -348,6 +358,7 @@ class MyFrame extends JFrame {
     
     add(lblA);
     add(lblB);
+    add(picLabel);
    // add(lblC);
    
   }

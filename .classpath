@@ -6,11 +6,11 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/8th sem/NSS/Library/bcpg-lw-jdk15on-1.59.jar"/>
-	<classpathentry kind="lib" path="D:/8th sem/NSS/Library/bcpg-lw-jdk15on-1.59-javadoc.jar"/>
-	<classpathentry kind="lib" path="D:/8th sem/NSS/Library/bcprov-lw-jdk15on-1.59.jar"/>
-	<classpathentry kind="lib" path="D:/8th sem/NSS/Library/pgplib-3.2.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/SIR/git/PGP-Gui/beansbinding-1.2.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/SIR/git/PGP-Gui/org-jdesktop-beansbinding.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akanksha/git/PGP/bcpg-lw-jdk15on-1.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akanksha/git/PGP/bcprov-jdk14-1.65.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akanksha/git/PGP/bcprov-lw-jdk15on-1.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akanksha/git/PGP/beansbinding-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akanksha/git/PGP/org-jdesktop-beansbinding.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akanksha/git/PGP/pgplib-3.2.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
