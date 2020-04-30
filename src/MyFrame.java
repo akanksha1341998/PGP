@@ -343,7 +343,7 @@ class MyFrame extends JFrame {
 //    lblC.setBackground(Color.white);
 //    lblC.setOpaque(true);
 //    
-    picLabel.setBounds(150, 180, 510, 420);
+    picLabel.setBounds(150, 180, 510, 490);
     add(btnEncryptFile);
     add(btnDecryptFile);
     add(btnEncryptText);
